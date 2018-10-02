@@ -25,8 +25,6 @@ public class PlayerControl : MonoBehaviour
 
     //Animator
     Animator anim;
-    bool jump = false;
-    bool running = false;
     bool movingHorizontal = false;
     bool movingVertical = false;
 
@@ -139,11 +137,9 @@ public class PlayerControl : MonoBehaviour
         }
     }
 
-    //Player can change colour.
-    //Can access certain areas of not be attacked by certain enemies when certain colour
-    void CheckColour()
+    public void SetColour(int colour)
     {
-
+        
     }
 
     //Player is able to attack the enemy
