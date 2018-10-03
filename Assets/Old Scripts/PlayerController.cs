@@ -14,6 +14,11 @@ public class PlayerController : MonoBehaviour {
     private float defaultSpeed;
     public float stamina = 100f;
 
+    //for changing colour
+    //0 for the initial state, i.e all enemies will attack
+    //Can access certain areas of not be attacked by certain enemies when certain colour
+    public int colourStatus = 0;
+
     // Use this for initialization
     void Start () {
         controller = GetComponent<CharacterController>();

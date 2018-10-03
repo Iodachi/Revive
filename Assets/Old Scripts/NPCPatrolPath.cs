@@ -24,7 +24,9 @@ public class NPCPatrolPath : MonoBehaviour
 
     NavMeshAgent navMeshAgent;
     int currentPatrolIndex;
+    //from one waypoint to another
     bool travelling;
+    //wait on a waypoint
     bool waiting;
     bool patrolForward;
     float waitTimer;
