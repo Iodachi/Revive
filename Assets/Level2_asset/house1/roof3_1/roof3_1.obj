@@ -1,0 +1,116 @@
+#File written by LIBUNFOLD3D. Compilation :Jun 29 2015,14:16:05
+mtllib roof3_1.mtl
+#begin vertices
+v 29.0154 32.29383 -22.9447
+v 29.0154 33.29383 -22.9447
+v 16.55414 39.88796 -9.057619
+v 16.55414 38.88796 -9.057619
+v 29.0154 32.29383 4.829466
+v 29.0154 33.29383 4.829466
+v -9.785559 32.29383 -22.9447
+v -9.785559 33.29383 -22.9447
+v 2.675695 39.88796 -9.057619
+v 2.675695 38.88796 -9.057619
+v -9.785559 32.29383 4.829466
+v -9.785559 33.29383 4.829466
+#end vertices
+
+#begin 22 textures vertices 
+vt 0.06529089 0.01565156 0
+vt 0.950459 0.01565156 0
+vt 0.7578749 0.2607131 0
+vt 0.2578749 0.2607131 0
+vt 0.5 0.06444996 0
+vt 0.5157499 0.06444996 0
+vt 0.01574987 0.6755598 0
+vt 1 0.6755598 0
+vt 0.7578749 0.4792967 0
+vt 0.2578749 0.4792967 0
+vt 0.5 0.6755598 0
+vt 0.501757 0.6912114 0
+vt 1 0.06444996 0
+vt 0 0.6755598 0
+vt 1.00159e-014 0.06444996 0
+vt 0.06704786 0.7400098 0
+vt 0.01574987 0.06444996 0
+vt 0.06529089 0.7243582 0
+vt 0.06704786 0 0
+vt 0.950459 0.7243582 0
+vt 0.501757 0.0487984 0
+vt 0.5157499 0.6755598 0
+#end 22 textures vertices 
+
+#begin 44 normals 
+vn 0 0.903334 -0.428938
+vn 0 0.903334 -0.428938
+vn 0 0.903334 -0.428938
+vn 0 0.903334 -0.428938
+vn 1 0 0
+vn 1 0 0
+vn 1 0 0
+vn 1 0 0
+vn 0 0.903334 0.428938
+vn 0 0.903334 0.428938
+vn 0 0.903334 0.428938
+vn 0 0.903334 0.428938
+vn 0.467722 0.883876 0
+vn 0.467722 0.883876 0
+vn 0.467722 0.883876 0
+vn -0.467722 -0.883876 0
+vn -0.467722 -0.883876 0
+vn -0.467722 -0.883876 0
+vn 0 0 -1
+vn 0 0 -1
+vn 0 0 -1
+vn 0 0 -1
+vn 0 -0.903334 0.428939
+vn 0 -0.903334 0.428939
+vn 0 -0.903334 0.428939
+vn 0 -0.903334 0.428939
+vn 0 -0.903334 -0.428939
+vn 0 -0.903334 -0.428939
+vn 0 -0.903334 -0.428938
+vn 0 -0.903334 -0.428938
+vn 0 0 1
+vn 0 0 1
+vn 0 0 1
+vn 0 0 1
+vn -0.467722 0.883876 0
+vn -0.467722 0.883876 0
+vn -0.467722 0.883876 0
+vn -1 0 0
+vn -1 0 0
+vn -1 0 0
+vn -1 0 0
+vn 0.467722 -0.883876 0
+vn 0.467722 -0.883876 0
+vn 0.467722 -0.883876 0
+#end 44 normals 
+
+#begin 12 faces
+usemtl initialShadingGroup
+g polySurface2560
+s off
+f 3/3/1 2/13/2 8/8/3 9/9/4 
+f 1/1/5 2/19/6 6/21/7 5/5/8 
+f 6/6/9 3/3/10 9/9/11 12/22/12 
+f 2/2/13 3/3/14 6/6/15 
+f 1/1/16 5/5/17 4/4/18 
+f 1/17/19 7/7/20 8/14/21 2/15/22 
+f 4/4/23 10/10/24 7/7/25 1/17/26 
+f 5/5/27 11/11/28 10/10/29 4/4/30 
+f 6/6/31 12/22/32 11/11/33 5/5/34 
+f 12/22/35 9/9/36 8/20/37 
+f 7/18/38 11/11/39 12/12/40 8/16/41 
+f 10/10/42 11/11/43 7/18/44 
+#end 12 faces
+
+#begin properties
+#U3DPROPERTIES_00 table {Mesh table {EdgesUVW table {Selected ints { 21 10 11 10 } } SymPlane table {Point vector3d 0 0 0  Normal vector3d 1 0 0  Threshold double 0.01 Enabled bool false } Maps table {Density table {PrimType string "Polygon" Size int 1 DefaultValue double 1 ScaleType string "Log" MinValue double 0.1 MaxValue double 4 Data doubles { r 12 1 } } Pin table {PrimType string "Vertex" Size int 1 DefaultValue double 0 ScaleType string "Normalized" MinValue double 0 MaxValue double 1 Data doubles { r 22 0 } } Protect table {PrimType string "Vertex" Size int 1 DefaultValue double 0 ScaleType string "Normalized" MinValue double -1 MaxValue double 1 Data doubles { r 22 0 } } } } }
+#end properties
+
+#begin 0 fatal error vertex (that Unfold3D cannot handle)
+#end 0 fatal error vertex (that Unfold3D cannot handle)
+
+#begin 0 error vertex
+#end 0 error vertex
