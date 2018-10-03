@@ -8,6 +8,7 @@ ModelImporter:
     400000: pPlane9
     400002: //RootNode
     2100000: aiStandardSurface3SG
+    2100002: pPlane9Mat
     2300000: pPlane9
     3300000: pPlane9
     4300000: pPlane9

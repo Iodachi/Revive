@@ -8,6 +8,7 @@ ModelImporter:
     400000: pPlane3
     400002: //RootNode
     2100000: lambert4SG
+    2100002: pPlane3Mat
     2300000: pPlane3
     3300000: pPlane3
     4300000: pPlane3

@@ -8,6 +8,7 @@ ModelImporter:
     400000: //RootNode
     400002: eaves:pCube51
     2100000: aiStandardSurface4SG
+    2100002: eaves_pCube51Mat
     2300000: eaves:pCube51
     3300000: eaves:pCube51
     4300000: eaves:pCube51
