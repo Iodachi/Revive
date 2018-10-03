@@ -842,6 +842,7 @@ MonoBehaviour:
   controller: {fileID: 0}
   moveDirection: {x: 0, y: 0, z: 0}
   stamina: 100
+  colourStatus: 0
 --- !u!1 &440001295
 GameObject:
   m_ObjectHideFlags: 0
@@ -1885,6 +1886,7 @@ GameObject:
   - component: {fileID: 1112873216}
   - component: {fileID: 1112873215}
   - component: {fileID: 1112873214}
+  - component: {fileID: 1112873218}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -1899,11 +1901,11 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1112873213}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 9.894844, y: 1.2859675, z: 9.14511}
+  m_Center: {x: -1.2697235, y: 0.14298159, z: -0.48228452}
 --- !u!23 &1112873215
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1952,14 +1954,26 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1112873213}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: -0, z: -0.0028049601, w: 0.99999607}
   m_LocalPosition: {x: 5.45, y: 0.56, z: 30.02}
   m_LocalScale: {x: 1.8762499, y: 3.1845586, z: 1.8762499}
   m_Children:
   - {fileID: 611564276}
   m_Father: {fileID: 0}
   m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.321}
+--- !u!114 &1112873218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1112873213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c299e340108e942b381244e8dca6708e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 425540979}
 --- !u!1 &1174711319
 GameObject:
   m_ObjectHideFlags: 0
