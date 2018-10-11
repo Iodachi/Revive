@@ -14,6 +14,8 @@ public class PlayerControl : MonoBehaviour
     public float jumpHeight = 10;
     public Vector3 velocity;
     public float velocityY;
+    // Lantern Object - Tui
+    public GameObject Lantern;
 
     //Rotation
     public float turnSmoothTime = 0.2f;
@@ -38,7 +40,22 @@ public class PlayerControl : MonoBehaviour
         controller = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
         startingScale = transform.localScale;
+        Lantern.SetActive(false);
     }
+
+    //LanterTurnOn + LightTurnOn - Tui
+   void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "LanternTag")
+        {
+            Lantern.SetActive(true);
+        }
+        if (Input.GetButtonDown("Fire3") && other.tag == "LightTag")
+        {
+            Debug.Log("Hello");
+        }
+    }
+
 
     void Update()
     {
@@ -101,6 +118,20 @@ public class PlayerControl : MonoBehaviour
         {
             movingVertical = false;
         }
+        //GravityShift + SlowFall - Tui
+        if (Input.GetButtonDown("Fire1"))
+        {  
+            gravity = 6f;
+            Debug.Log("gravityshifttrue");
+        }
+        if (Input.GetButtonUp("Fire1"))
+        {
+            gravity = 15f;
+            Debug.Log("gravityshifttrue");
+        }
+
+
+
 
         //Setting the animation based on the input
         if (Input.GetButtonDown("Jump") && controller.isGrounded)
