@@ -34,3 +34,6 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Assets/Level2/ground/entry.meta
+Assets/Level2/ground/entry.meta
+Assets/Level2/ground/entry/Materials/ground2_initialShadingGroup_AlbedoTransparenc.mat

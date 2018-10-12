@@ -1,0 +1,228 @@
+fileFormatVersion: 2
+guid: 08552f96445e1344ebeda20030d8257d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: group
+    100002: h:Group11
+    100004: h:Group25
+    100006: h:Group70
+    100008: h:Group71
+    100010: h:Group76
+    100012: h:Group8
+    100014: h:Group9
+    100016: h:Group91
+    100018: h:ZBrush_defualt_group
+    100020: l:Group1
+    100022: //RootNode
+    100024: pasted__pPlane1
+    100026: pasted__pPlane2
+    100028: pPlane1
+    100030: pPlane2
+    100032: pPlane3
+    100034: pPlane4
+    100036: pPlane5
+    100038: pPlane6
+    100040: pPlane7
+    100042: pPlane8
+    100044: pPlane9
+    400000: group
+    400002: h:Group11
+    400004: h:Group25
+    400006: h:Group70
+    400008: h:Group71
+    400010: h:Group76
+    400012: h:Group8
+    400014: h:Group9
+    400016: h:Group91
+    400018: h:ZBrush_defualt_group
+    400020: l:Group1
+    400022: //RootNode
+    400024: pasted__pPlane1
+    400026: pasted__pPlane2
+    400028: pPlane1
+    400030: pPlane2
+    400032: pPlane3
+    400034: pPlane4
+    400036: pPlane5
+    400038: pPlane6
+    400040: pPlane7
+    400042: pPlane8
+    400044: pPlane9
+    2100000: lambert1
+    2300000: h:Group11
+    2300002: h:Group25
+    2300004: h:Group70
+    2300006: h:Group71
+    2300008: h:Group76
+    2300010: h:Group8
+    2300012: h:Group9
+    2300014: h:Group91
+    2300016: h:ZBrush_defualt_group
+    2300018: l:Group1
+    2300020: pasted__pPlane1
+    2300022: pasted__pPlane2
+    2300024: pPlane1
+    2300026: pPlane2
+    2300028: pPlane3
+    2300030: pPlane4
+    2300032: pPlane5
+    2300034: pPlane6
+    2300036: pPlane7
+    2300038: pPlane8
+    2300040: pPlane9
+    3300000: h:Group11
+    3300002: h:Group25
+    3300004: h:Group70
+    3300006: h:Group71
+    3300008: h:Group76
+    3300010: h:Group8
+    3300012: h:Group9
+    3300014: h:Group91
+    3300016: h:ZBrush_defualt_group
+    3300018: l:Group1
+    3300020: pasted__pPlane1
+    3300022: pasted__pPlane2
+    3300024: pPlane1
+    3300026: pPlane2
+    3300028: pPlane3
+    3300030: pPlane4
+    3300032: pPlane5
+    3300034: pPlane6
+    3300036: pPlane7
+    3300038: pPlane8
+    3300040: pPlane9
+    4300000: l:Group1
+    4300002: h:ZBrush_defualt_group
+    4300004: h:Group8
+    4300006: h:Group9
+    4300008: h:Group11
+    4300010: h:Group25
+    4300012: h:Group70
+    4300014: h:Group71
+    4300016: h:Group76
+    4300018: h:Group91
+    4300020: pPlane1
+    4300022: pPlane2
+    4300024: pPlane3
+    4300026: pPlane4
+    4300028: pPlane5
+    4300030: pasted__pPlane1
+    4300032: pasted__pPlane2
+    4300034: pPlane6
+    4300036: pPlane7
+    4300038: pPlane8
+    4300040: pPlane9
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
