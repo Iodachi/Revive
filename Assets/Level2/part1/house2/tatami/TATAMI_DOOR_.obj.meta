@@ -1,0 +1,156 @@
+fileFormatVersion: 2
+guid: 90fd1bbfc61709443a0681c80803c93d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2819_TATAMI_DOOR_2:polySurface1_polySurface2819
+    100004: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2822_TATAMI_DOOR_2:polySurface1_polySurface2822
+    100006: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2823_TATAMI_DOOR_2:polySurface1_polySurface2816
+    100008: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2824_TATAMI_DOOR_2:polySurface1_polySurface2823
+    100010: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2825_TATAMI_DOOR_2:polySurface1_polySurface2821
+    100012: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2826_TATAMI_DOOR_2:polySurface1_polySurface2815
+    100014: TATAMI_DOOR_2:pCube80_TATAMI_DOOR_2:polySurface2814_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface1_polySurface2813
+    100016: TATAMI_DOOR_2:pCube81_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2821_polySurface2820_TATAMI_DOOR_2:polySurface1
+    100018: TATAMI_DOOR_2:pPlane10_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2817_TATAMI_DOOR_2:polySurface2820_TATAMI_DOOR_2:polySurface1_polySurface2818
+    100020: TATAMI_DOOR_2:pPlane12_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2816_TATAMI_DOOR_2:polySurface1_polySurface2814
+    100022: TATAMI_DOOR_2:pPlane13_TATAMI_DOOR_2:polySurface2813_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface1_polySurface2817
+    400000: //RootNode
+    400002: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2819_TATAMI_DOOR_2:polySurface1_polySurface2819
+    400004: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2822_TATAMI_DOOR_2:polySurface1_polySurface2822
+    400006: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2823_TATAMI_DOOR_2:polySurface1_polySurface2816
+    400008: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2824_TATAMI_DOOR_2:polySurface1_polySurface2823
+    400010: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2825_TATAMI_DOOR_2:polySurface1_polySurface2821
+    400012: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2826_TATAMI_DOOR_2:polySurface1_polySurface2815
+    400014: TATAMI_DOOR_2:pCube80_TATAMI_DOOR_2:polySurface2814_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface1_polySurface2813
+    400016: TATAMI_DOOR_2:pCube81_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2821_polySurface2820_TATAMI_DOOR_2:polySurface1
+    400018: TATAMI_DOOR_2:pPlane10_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2817_TATAMI_DOOR_2:polySurface2820_TATAMI_DOOR_2:polySurface1_polySurface2818
+    400020: TATAMI_DOOR_2:pPlane12_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2816_TATAMI_DOOR_2:polySurface1_polySurface2814
+    400022: TATAMI_DOOR_2:pPlane13_TATAMI_DOOR_2:polySurface2813_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface1_polySurface2817
+    2100000: TATAMI_DOOR_2_pCube75_TATAMI_DOOR_2_polySurface2815_TATAMI_DOOR_2_polySurface2819_TATAMI_DOOR_2_polySurface1_polySurface2819Mat
+    2100002: TATAMI_DOOR_2_pCube75_TATAMI_DOOR_2_polySurface2815_TATAMI_DOOR_2_polySurface2822_TATAMI_DOOR_2_polySurface1_polySurface2822Mat
+    2100004: TATAMI_DOOR_2_pCube75_TATAMI_DOOR_2_polySurface2815_TATAMI_DOOR_2_polySurface2823_TATAMI_DOOR_2_polySurface1_polySurface2816Mat
+    2100006: TATAMI_DOOR_2_pCube75_TATAMI_DOOR_2_polySurface2815_TATAMI_DOOR_2_polySurface2824_TATAMI_DOOR_2_polySurface1_polySurface2823Mat
+    2100008: TATAMI_DOOR_2_pCube75_TATAMI_DOOR_2_polySurface2815_TATAMI_DOOR_2_polySurface2825_TATAMI_DOOR_2_polySurface1_polySurface2821Mat
+    2100010: TATAMI_DOOR_2_pCube75_TATAMI_DOOR_2_polySurface2815_TATAMI_DOOR_2_polySurface2826_TATAMI_DOOR_2_polySurface1_polySurface2815Mat
+    2100012: TATAMI_DOOR_2_pCube80_TATAMI_DOOR_2_polySurface2814_TATAMI_DOOR_2_polySurface2815_TATAMI_DOOR_2_polySurface1_polySurface2813Mat
+    2100014: TATAMI_DOOR_2_pCube81_TATAMI_DOOR_2_polySurface2815_TATAMI_DOOR_2_polySurface2821_polySurface2820_TATAMI_DOOR_2_polySurface1Mat
+    2100016: TATAMI_DOOR_2_pPlane10_TATAMI_DOOR_2_polySurface2815_TATAMI_DOOR_2_polySurface2817_TATAMI_DOOR_2_polySurface2820_TATAMI_DOOR_2_polySurface1_polySurface2818Mat
+    2100018: TATAMI_DOOR_2_pPlane12_TATAMI_DOOR_2_polySurface2815_TATAMI_DOOR_2_polySurface2816_TATAMI_DOOR_2_polySurface1_polySurface2814Mat
+    2100020: TATAMI_DOOR_2_pPlane13_TATAMI_DOOR_2_polySurface2813_TATAMI_DOOR_2_polySurface2815_TATAMI_DOOR_2_polySurface1_polySurface2817Mat
+    2300000: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2819_TATAMI_DOOR_2:polySurface1_polySurface2819
+    2300002: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2822_TATAMI_DOOR_2:polySurface1_polySurface2822
+    2300004: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2823_TATAMI_DOOR_2:polySurface1_polySurface2816
+    2300006: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2824_TATAMI_DOOR_2:polySurface1_polySurface2823
+    2300008: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2825_TATAMI_DOOR_2:polySurface1_polySurface2821
+    2300010: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2826_TATAMI_DOOR_2:polySurface1_polySurface2815
+    2300012: TATAMI_DOOR_2:pCube80_TATAMI_DOOR_2:polySurface2814_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface1_polySurface2813
+    2300014: TATAMI_DOOR_2:pCube81_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2821_polySurface2820_TATAMI_DOOR_2:polySurface1
+    2300016: TATAMI_DOOR_2:pPlane10_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2817_TATAMI_DOOR_2:polySurface2820_TATAMI_DOOR_2:polySurface1_polySurface2818
+    2300018: TATAMI_DOOR_2:pPlane12_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2816_TATAMI_DOOR_2:polySurface1_polySurface2814
+    2300020: TATAMI_DOOR_2:pPlane13_TATAMI_DOOR_2:polySurface2813_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface1_polySurface2817
+    3300000: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2819_TATAMI_DOOR_2:polySurface1_polySurface2819
+    3300002: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2822_TATAMI_DOOR_2:polySurface1_polySurface2822
+    3300004: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2823_TATAMI_DOOR_2:polySurface1_polySurface2816
+    3300006: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2824_TATAMI_DOOR_2:polySurface1_polySurface2823
+    3300008: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2825_TATAMI_DOOR_2:polySurface1_polySurface2821
+    3300010: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2826_TATAMI_DOOR_2:polySurface1_polySurface2815
+    3300012: TATAMI_DOOR_2:pCube80_TATAMI_DOOR_2:polySurface2814_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface1_polySurface2813
+    3300014: TATAMI_DOOR_2:pCube81_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2821_polySurface2820_TATAMI_DOOR_2:polySurface1
+    3300016: TATAMI_DOOR_2:pPlane10_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2817_TATAMI_DOOR_2:polySurface2820_TATAMI_DOOR_2:polySurface1_polySurface2818
+    3300018: TATAMI_DOOR_2:pPlane12_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2816_TATAMI_DOOR_2:polySurface1_polySurface2814
+    3300020: TATAMI_DOOR_2:pPlane13_TATAMI_DOOR_2:polySurface2813_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface1_polySurface2817
+    4300000: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2819_TATAMI_DOOR_2:polySurface1_polySurface2819
+    4300002: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2822_TATAMI_DOOR_2:polySurface1_polySurface2822
+    4300004: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2823_TATAMI_DOOR_2:polySurface1_polySurface2816
+    4300006: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2824_TATAMI_DOOR_2:polySurface1_polySurface2823
+    4300008: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2825_TATAMI_DOOR_2:polySurface1_polySurface2821
+    4300010: TATAMI_DOOR_2:pCube75_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2826_TATAMI_DOOR_2:polySurface1_polySurface2815
+    4300012: TATAMI_DOOR_2:pCube80_TATAMI_DOOR_2:polySurface2814_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface1_polySurface2813
+    4300014: TATAMI_DOOR_2:pCube81_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2821_polySurface2820_TATAMI_DOOR_2:polySurface1
+    4300016: TATAMI_DOOR_2:pPlane10_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2817_TATAMI_DOOR_2:polySurface2820_TATAMI_DOOR_2:polySurface1_polySurface2818
+    4300018: TATAMI_DOOR_2:pPlane12_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface2816_TATAMI_DOOR_2:polySurface1_polySurface2814
+    4300020: TATAMI_DOOR_2:pPlane13_TATAMI_DOOR_2:polySurface2813_TATAMI_DOOR_2:polySurface2815_TATAMI_DOOR_2:polySurface1_polySurface2817
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
