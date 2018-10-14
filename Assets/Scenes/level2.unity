@@ -52,8 +52,8 @@ LightmapSettings:
     m_AlbedoBoost: 1
     m_TemporalCoherenceThreshold: 1
     m_EnvironmentLightingMode: 0
-    m_EnableBakedLightmaps: 1
-    m_EnableRealtimeLightmaps: 1
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
     serializedVersion: 10
     m_Resolution: 2
@@ -6165,7 +6165,7 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: -7.4005666, y: 6.0564766, z: 42.687347}
+    m_Center: {x: -7.400566, y: 6.0564766, z: 42.687347}
     m_Extent: {x: 0, y: 1.1916169, z: 0.67362076}
   m_DirtyAABB: 0
 --- !u!1 &188482940
@@ -12364,7 +12364,7 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: -7.4005666, y: 6.0564766, z: 48.848602}
+    m_Center: {x: -7.400566, y: 6.0564766, z: 48.848602}
     m_Extent: {x: 0, y: 1.1916169, z: 0.67362076}
   m_DirtyAABB: 0
 --- !u!1001 &391934285
@@ -25795,7 +25795,7 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: -7.4005666, y: 6.0564766, z: 44.30301}
+    m_Center: {x: -7.400566, y: 6.0564766, z: 44.30301}
     m_Extent: {x: 0, y: 1.1916169, z: 0.67362076}
   m_DirtyAABB: 0
 --- !u!1 &729401538
@@ -26884,7 +26884,7 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: -7.4005666, y: 6.0564766, z: 45.80713}
+    m_Center: {x: -7.400566, y: 6.0564766, z: 45.80713}
     m_Extent: {x: 0, y: 1.1916169, z: 0.67362076}
   m_DirtyAABB: 0
 --- !u!1 &752636523
@@ -37146,7 +37146,7 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 0}
   m_AABB:
-    m_Center: {x: -7.4005666, y: 6.0564766, z: 47.350983}
+    m_Center: {x: -7.400566, y: 6.0564766, z: 47.350983}
     m_Extent: {x: 0, y: 1.1916169, z: 0.67362076}
   m_DirtyAABB: 0
 --- !u!1001 &1063167978
