@@ -50,10 +50,16 @@ public class PlayerControl : MonoBehaviour
         {
             Lantern.SetActive(true);
         }
+
+        if(other.tag == "Umbrella"){
+            other.gameObject.SetActive(false);
+        }
+
         if (Input.GetButtonDown("Fire3") && other.tag == "LightTag")
         {
             Debug.Log("Hello");
         }
+
     }
 
 
