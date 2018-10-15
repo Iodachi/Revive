@@ -34,6 +34,9 @@ public class PlayerControl : MonoBehaviour
     Vector3 startingScale;
     bool isStartingScale = true;
 
+    //abilities
+    bool umbrella = false;
+
     void Start()
     {
         camera = Camera.main.transform;
@@ -51,8 +54,10 @@ public class PlayerControl : MonoBehaviour
             Lantern.SetActive(true);
         }
 
+        //picking up the umbrella, abilities?
         if(other.tag == "Umbrella"){
             other.gameObject.SetActive(false);
+            umbrella = true;
         }
 
         if (Input.GetButtonDown("Fire3") && other.tag == "LightTag")
@@ -124,26 +129,25 @@ public class PlayerControl : MonoBehaviour
         {
             movingVertical = false;
         }
-        //GravityShift + SlowFall - Tui
-        if (Input.GetButtonDown("Fire1"))
-        {  
-            gravity = 6f;
-            Debug.Log("gravityshifttrue");
+
+        //fall slower when holding space bar
+        //if have the ability of course
+        if (Input.GetButtonDown("Jump") & (!controller.isGrounded) && umbrella)
+        {
+            gravity = 3f;
         }
-        if (Input.GetButtonUp("Fire1"))
+        if (Input.GetButtonUp("Jump"))
         {
             gravity = 15f;
-            Debug.Log("gravityshifttrue");
         }
-
-
-
 
         //Setting the animation based on the input
         if (Input.GetButtonDown("Jump") && controller.isGrounded)
         {
             anim.SetTrigger("jump");
         }
+
+
         if (movingHorizontal == true || movingVertical == true)
         {
             anim.SetTrigger("run");
