@@ -8,8 +8,13 @@ Material:
   m_PrefabInternal: {fileID: 0}
   m_Name: 1_initialShadingGroup_AlbedoTransparency
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+<<<<<<< HEAD
   m_ShaderKeywords: _EMISSION _NORMALMAP
   m_LightmapFlags: 1
+=======
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 0
+>>>>>>> dba5bd7cbe9b00f573113260f143e0ca4d66d8f1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -73,4 +78,8 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+<<<<<<< HEAD
     - _EmissionColor: {r: 0.9433962, g: 0.91256416, b: 0.51174796, a: 1}
+=======
+    - _EmissionColor: {r: 0.764151, g: 0.7380413, b: 0.4793966, a: 1}
+>>>>>>> dba5bd7cbe9b00f573113260f143e0ca4d66d8f1

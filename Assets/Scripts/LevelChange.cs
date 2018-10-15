@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LevelChange : MonoBehaviour {
-
 	// Use this for initialization
 	void Start () {
 		
@@ -13,4 +13,12 @@ public class LevelChange : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "Player"){
+            Debug.Log("here");
+            SceneManager.LoadScene("level2");
+        }
+    }
 }
