@@ -842,6 +842,7 @@ MonoBehaviour:
   controller: {fileID: 0}
   moveDirection: {x: 0, y: 0, z: 0}
   stamina: 100
+  colourStatus: 0
 --- !u!1 &440001295
 GameObject:
   m_ObjectHideFlags: 0
@@ -1498,7 +1499,7 @@ GameObject:
   m_Name: Non-walkable navmesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 1
+  m_NavMeshLayer: 0
   m_StaticEditorFlags: 40
   m_IsActive: 1
 --- !u!64 &938160786

@@ -5,6 +5,7 @@ using UnityEngine;
 public class ColourChangeControl : MonoBehaviour {
 
     public PlayerControl player;
+    public int changeColour;
 
 	// Use this for initialization
 	void Start () {
@@ -16,9 +17,9 @@ public class ColourChangeControl : MonoBehaviour {
 		
 	}
 
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         Debug.Log("Triggered");
-        player.SetColour(1);
+        player.SetColour(changeColour);
     }
 }

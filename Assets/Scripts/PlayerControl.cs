@@ -37,6 +37,9 @@ public class PlayerControl : MonoBehaviour
     //abilities
     bool umbrella = false;
 
+    //colour changing in according to enemy following
+    public int colour = 0;
+
     void Start()
     {
         camera = Camera.main.transform;
@@ -178,9 +181,9 @@ public class PlayerControl : MonoBehaviour
         }
     }
 
-    public void SetColour(int colour)
+    public void SetColour(int newColour)
     {
-        
+        colour = newColour;
     }
 
     //Player is able to attack the enemy

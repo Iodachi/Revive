@@ -15,6 +15,10 @@ public class AIController : MonoBehaviour
     Transform target;
     NavMeshAgent agent;
 
+    //the colour represented by this enemy, if it is the same as player's colour,
+    //the enemy won't attack
+    public int enemyColour = 1;
+
     void Start()
     {
         player = GameObject.Find("Player").GetComponent<PlayerControl>();
@@ -26,7 +30,7 @@ public class AIController : MonoBehaviour
     void Update()
     {
         float distance = Vector3.Distance(target.position, transform.position);
-        if (distance <= lookRadius)
+        if (distance <= lookRadius && enemyColour != player.colour)
         {
             agent.SetDestination(target.position);
 
