@@ -8,6 +8,7 @@ TagManager:
   - LanternTag
   - LightTag
   - Umbrella
+  - Bow
   layers:
   - Default
   - TransparentFX

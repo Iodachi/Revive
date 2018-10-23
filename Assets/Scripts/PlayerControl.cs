@@ -17,6 +17,8 @@ public class PlayerControl : MonoBehaviour
     // Lantern Object - Tui
     public GameObject Lantern;
 
+    public GameObject Bow;
+
     //Rotation
     public float turnSmoothTime = 0.2f;
     float turnSmoothVelocity;
@@ -47,6 +49,7 @@ public class PlayerControl : MonoBehaviour
         anim = GetComponent<Animator>();
         startingScale = transform.localScale;
         Lantern.SetActive(false);
+        Bow.SetActive(false);
     }
 
     //LanterTurnOn + LightTurnOn - Tui
@@ -55,6 +58,11 @@ public class PlayerControl : MonoBehaviour
         if (other.tag == "LanternTag")
         {
             Lantern.SetActive(true);
+        }
+
+        if(other.tag == "Bow"){
+            other.gameObject.SetActive(false);
+            Bow.SetActive(true);
         }
 
         //picking up the umbrella, abilities?
@@ -184,24 +192,6 @@ public class PlayerControl : MonoBehaviour
     public void SetColour(int newColour)
     {
         colour = newColour;
-    }
-
-    //Player is able to attack the enemy
-    void Attack()
-    {
-
-    }
-
-    //Player is able to double jump
-    void DoubleJump()
-    {
-
-    }
-
-    //Player is able to wall jump
-    void WallJump()
-    {
-
     }
 
     //Player has health and lives. Loses life when dies
