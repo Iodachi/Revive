@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerControl : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class PlayerControl : MonoBehaviour
     public GameObject Lantern;
 
     public GameObject Bow;
+    int flowersPicked = 0;
 
     //Rotation
     public float turnSmoothTime = 0.2f;
@@ -26,6 +28,8 @@ public class PlayerControl : MonoBehaviour
     //Controllers
     Transform camera;
     CharacterController controller;
+
+    public Text task;
 
     //Animator
     Animator anim;
@@ -50,6 +54,7 @@ public class PlayerControl : MonoBehaviour
         startingScale = transform.localScale;
         Lantern.SetActive(false);
         Bow.SetActive(false);
+        //UpdateTask();
     }
 
     //LanterTurnOn + LightTurnOn - Tui
@@ -69,6 +74,14 @@ public class PlayerControl : MonoBehaviour
         if(other.tag == "Umbrella"){
             other.gameObject.SetActive(false);
             umbrella = true;
+        }
+
+        //the task system to get the flowers
+        if(other.tag == "Flower"){
+            other.gameObject.SetActive(false);
+            flowersPicked++;
+            Debug.Log(flowersPicked);
+            //UpdateTask();
         }
 
         if (Input.GetButtonDown("Fire3") && other.tag == "LightTag")
@@ -199,5 +212,9 @@ public class PlayerControl : MonoBehaviour
     void CalculateHealth()
     {
 
+    }
+
+    void UpdateTask(){
+        task.text = "Collect flowers[" + flowersPicked + " / 5]";
     }
 }

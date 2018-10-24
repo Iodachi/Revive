@@ -9,6 +9,7 @@ TagManager:
   - LightTag
   - Umbrella
   - Bow
+  - Flower
   layers:
   - Default
   - TransparentFX
