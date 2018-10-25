@@ -4,8 +4,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class LevelChange : MonoBehaviour {
-	// Use this for initialization
-	void Start () {
+    public PlayerControl player;
+
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -16,8 +18,9 @@ public class LevelChange : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Player"){
-            SceneManager.LoadScene("level2");
+        //if player fulfilled the task
+        if(other.tag == "Player" && player.getFlowers() >= 5){
+            SceneManager.LoadScene("level1");
         }
     }
 }

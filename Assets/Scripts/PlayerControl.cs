@@ -42,6 +42,7 @@ public class PlayerControl : MonoBehaviour
 
     //abilities
     bool umbrella = false;
+    bool colourChange = false;
 
     //colour changing in according to enemy following
     public int colour = 0;
@@ -54,7 +55,7 @@ public class PlayerControl : MonoBehaviour
         startingScale = transform.localScale;
         Lantern.SetActive(false);
         Bow.SetActive(false);
-        //UpdateTask();
+        UpdateTask();
     }
 
     //LanterTurnOn + LightTurnOn - Tui
@@ -68,6 +69,7 @@ public class PlayerControl : MonoBehaviour
         if(other.tag == "Bow"){
             other.gameObject.SetActive(false);
             Bow.SetActive(true);
+            colourChange = true;
         }
 
         //picking up the umbrella, abilities?
@@ -81,7 +83,7 @@ public class PlayerControl : MonoBehaviour
             other.gameObject.SetActive(false);
             flowersPicked++;
             Debug.Log(flowersPicked);
-            //UpdateTask();
+            UpdateTask();
         }
 
         if (Input.GetButtonDown("Fire3") && other.tag == "LightTag")
@@ -207,6 +209,10 @@ public class PlayerControl : MonoBehaviour
         colour = newColour;
     }
 
+    public int getFlowers(){
+        return flowersPicked;
+    }
+
     //Player has health and lives. Loses life when dies
     //And loses health when attacked or in fog/smoke etc.
     void CalculateHealth()
@@ -215,6 +221,6 @@ public class PlayerControl : MonoBehaviour
     }
 
     void UpdateTask(){
-        task.text = "Collect flowers[" + flowersPicked + " / 5]";
+        task.text = "Collect flowers[" + flowersPicked.ToString() + " / 5]";
     }
 }
