@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:Assets/tree_asset/Red_Maple_Mobile_Young_Fall.spm.meta
 guid: 71fa2b05533b87a4080b5b5bad17710c
-=======
-guid: 3a5f28a6c822b754b8d935fa087bf142
->>>>>>> a3d07e47b4d2049b34e5aaec497e049451d2f5c8:Assets/Red_Maple/Red_Maple_Mobile_Young_Fall.spm.meta
 SpeedTreeImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -30,8 +26,8 @@ SpeedTreeImporter:
     enableHue: 1
     windQuality: 4
   - height: 0.01
-    castShadows: 0
-    receiveShadows: 0
+    castShadows: 1
+    receiveShadows: 1
     useLightProbes: 0
     reflectionProbeUsage: 0
     enableBump: 1
@@ -42,7 +38,7 @@ SpeedTreeImporter:
   billboardTransitionCrossFadeWidth: 0.25
   fadeOutWidth: 0.25
   scaleFactor: 0.3048
-  materialVersion: 1
+  materialVersion: 3
   userData: 
   assetBundleName: 
   assetBundleVariant: 
