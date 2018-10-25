@@ -1,0 +1,30 @@
+newmtl enemy_snake:default1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd enemy_snake_body_Albedo.tga
+bump enemy_snake_body_Height.tga -bm 0
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 100.00
+newmtl enemy_snake:default3
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd enemy_snake_hair_Albedo.tga
+bump enemy_snake_hair_Height.tga -bm 0
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 100.00
+newmtl enemy_snake:default5
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd enemy_snake_tongue_Albedo.tga
+bump enemy_snake_tongue_Height.tga -bm 0
+Ni 1.00
+Ks 1.00 1.00 1.00
+Ns 100.00
