@@ -19,7 +19,9 @@ public class LevelChange : MonoBehaviour {
     void OnTriggerEnter(Collider other)
     {
         //if player fulfilled the task
-        if(other.tag == "Player" && player.getFlowers() >= 5){
+        if(other.tag == "Player" 
+           //&& player.getFlowers() >= 5
+          ){
             SceneManager.LoadScene("level1");
         }
     }
