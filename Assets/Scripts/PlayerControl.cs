@@ -170,18 +170,22 @@ public class PlayerControl : MonoBehaviour
         //Setting the animation based on the input
         if (Input.GetButtonDown("Jump") && controller.isGrounded)
         {
+            Debug.Log("Jump Anim");
             anim.SetTrigger("jump");
         }
 
 
         if (movingHorizontal == true || movingVertical == true)
         {
+            Debug.Log("Run Anim");
             anim.SetTrigger("run");
         }
         else if (movingHorizontal == false && movingVertical == false)
         {
+            //Debug.Log("Idle Anim");
             anim.SetTrigger("idle");
         }
+        //Booleans aren't working correctly, maybe for accuracy try calling button directly
 
     }
 

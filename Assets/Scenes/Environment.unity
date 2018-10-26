@@ -9948,6 +9948,10 @@ Prefab:
       propertyPath: task
       value: 
       objectReference: {fileID: 1145652423}
+    - target: {fileID: 1198590566374772, guid: c37eb1a754ea74ee38b7eb8d1386292d, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c37eb1a754ea74ee38b7eb8d1386292d, type: 2}
   m_IsPrefabAsset: 0
@@ -37342,6 +37346,11 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300016, guid: e36de7c0a52748943880d971c66c679f, type: 3}
+--- !u!4 &1451919803 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4753337671861524, guid: c37eb1a754ea74ee38b7eb8d1386292d,
+    type: 2}
+  m_PrefabInternal: {fileID: 338726660}
 --- !u!1 &1455247497 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 41e7c7a3850e69e468b114e4cf9f8d1e,
@@ -40036,19 +40045,19 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 558752658}
+    m_TransformParent: {fileID: 1451919803}
     m_Modifications:
     - target: {fileID: 400000, guid: 4fe9a59718a12a345b43509be01d396c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.003
+      value: -0.002999878
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4fe9a59718a12a345b43509be01d396c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.188
+      value: 0.18241659
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4fe9a59718a12a345b43509be01d396c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.046
+      value: -0.04599991
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4fe9a59718a12a345b43509be01d396c, type: 3}
       propertyPath: m_LocalRotation.x
@@ -40068,11 +40077,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4fe9a59718a12a345b43509be01d396c, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4fe9a59718a12a345b43509be01d396c, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.6075195
+      value: 0.60751957
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4fe9a59718a12a345b43509be01d396c, type: 3}
       propertyPath: m_LocalScale.y
