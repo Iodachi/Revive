@@ -139,19 +139,19 @@ public class PlayerControl : MonoBehaviour
     void CheckAnimation()
     {
         //Checking inputs to determine animations
-        if (Input.GetButtonDown("Horizontal"))
+        if (Input.GetKey("a") || Input.GetKey("d"))
         {
             movingHorizontal = true;
         }
-        if (Input.GetButtonDown("Vertical"))
+        if (Input.GetKey("w") || Input.GetKey("s"))
         {
             movingVertical = true;
         }
-        if (Input.GetButtonUp("Horizontal"))
+        if (!Input.GetKey("a") && !Input.GetKey("d"))
         {
             movingHorizontal = false;
         }
-        if (Input.GetButtonUp("Vertical"))
+        if (!Input.GetKey("w") && !Input.GetKey("s"))
         {
             movingVertical = false;
         }
@@ -178,12 +178,12 @@ public class PlayerControl : MonoBehaviour
         if (movingHorizontal == true || movingVertical == true)
         {
             Debug.Log("Run Anim");
-            anim.SetTrigger("run");
+            anim.SetBool("isRunning", true);
         }
         else if (movingHorizontal == false && movingVertical == false)
         {
             //Debug.Log("Idle Anim");
-            anim.SetTrigger("idle");
+            anim.SetBool("isRunning", false);
         }
         //Booleans aren't working correctly, maybe for accuracy try calling button directly
 
