@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: WaterProDaytime
-  m_Shader: {fileID: 4800000, guid: 1cac2e0bcc34e4b3cbb4bd85982eba83, type: 3}
-  m_ShaderKeywords: 
+  m_Shader: {fileID: 4800000, guid: 64125dfe3fafe5c489704538e6f98a5e, type: 3}
+  m_ShaderKeywords: _ENABLECUSTOMFOG_ON _ENABLEREFLECTIONS_ON
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -22,12 +22,28 @@ Material:
         m_Texture: {fileID: 2800000, guid: 2dd3788f8589b40bf82a92d76ffc5091, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _DistortionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Fresnel:
         m_Texture: {fileID: 2800000, guid: 5b5c5575fd4c74abd9f7b30862fb76a3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _LargeWavesTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: e6f8288974c664a309d6c66de636978c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MediumWavesTexture:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ReflectionTex:
@@ -46,21 +62,92 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SmallWavesTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _ReflDistort: 0.44
-    - _RefrDistort: 0.4
-    - _WaveScale: 0.118
+    - _Cutoff: 0.5
+    - _Density: 1.74
+    - _DepthTransparency: 1.5
+    - _Distortion: 0.3
+    - _DistortionPower: 4
+    - _EnableCustomFog: 1.446453
+    - _EnableReflections: 0.5
+    - _Fade: 1.45
+    - _FoamBlend: 0.15
+    - _FoamContrast: 0.25
+    - _FoamDistFade: 9.5
+    - _FoamDistFalloff: 16
+    - _FoamIntensity: 10
+    - _FoamSpeed: 120
+    - _FoamTiling: 3
+    - _FoamVisibility: 0.3
+    - _FogDistance: 1000
+    - _FogFade: 1
+    - _FresnelScale: 0.75
+    - _GerstnerIntensity: 1
+    - _Gloss: 0.55
+    - _LargeWaveRefraction: 1.5
+    - _LargeWavesSpeed: -40
+    - _LargeWavesTiling: 0.3
+    - _LightWrapping: 0
+    - _MaxTreshold: 0.5
+    - _MediumWaveRefraction: 1.8
+    - _MediumWavesSpeed: 40
+    - _MediumWavesTiling: 0.5
+    - _ReflDistort: 1.5
+    - _ReflectionIntensity: 0.5
+    - _RefrDistort: 1.5
+    - _Shininess: 200
+    - _ShoreFade: 0.3
+    - _ShoreTransparency: 0.04
+    - _SmallWaveRrefraction: 2.2
+    - _SmallWavesSpeed: -20
+    - _SmallWavesTiling: 1
+    - _Specular: 1
+    - _TargetValue: 0
+    - _TimeScale1: 30
+    - _TimeScale2: 5
+    - _TresholdDensity: 20
+    - _TresholdFalloff: 1.2
+    - _UnderwaterMode: 0
+    - _WaveBlend: 0.77
+    - _WaveFade: 1.19
+    - _WaveScale: 0.02
+    - _WavesDensity: 10
     m_Colors:
-    - WaveSpeed: {r: 9, g: 4.5, b: -8, a: -3.5}
+    - WaveSpeed: {r: 40, g: 400, b: -80, a: -30}
+    - _AnimationDirection: {r: 1, g: 1, b: 1, a: 1}
+    - _AnimationTiling: {r: 2.2, g: 2.2, b: -1.1, a: -1.1}
+    - _BaseColor: {r: 1, g: 0.07075471, b: 0.11530828, a: 0.5}
+    - _BumpDirection: {r: 1, g: 1, b: -1, a: 1}
     - _BumpMap_ST: {r: 1, g: 1, b: 0, a: 0}
+    - _BumpTiling: {r: 1, g: 1, b: -2, a: 3}
+    - _DeepWaterColor: {r: 0, g: 0.3411765, b: 0.6235294, a: 1}
+    - _DistortParams: {r: 1, g: 1, b: 2, a: 1.15}
+    - _FoamColor: {r: 0.3823529, g: 0.3879758, b: 0.3879758, a: 1}
+    - _FogColor: {r: 1, g: 1, b: 1, a: 1}
     - _Fresnel_ST: {r: 1, g: 1, b: 0, a: 0}
-    - _HorizonColor: {r: 0.13575952, g: 0.22810712, b: 0.3810788, a: 0}
+    - _GAmplitude: {r: 0.3, g: 0.35, b: 0.25, a: 0.25}
+    - _GDirectionAB: {r: 0.3, g: 0.85, b: 0.85, a: 0.25}
+    - _GDirectionCD: {r: 0.1, g: 0.9, b: 0.5, a: 0.5}
+    - _GFrequency: {r: 1.3, g: 1.35, b: 1.25, a: 1.25}
+    - _GSpeed: {r: 1.2, g: 1.375, b: 1.1, a: 1.5}
+    - _GSteepness: {r: 1, g: 1, b: 1, a: 1}
+    - _HorizonColor: {r: 0.9622642, g: 0.050716095, b: 0, a: 0}
+    - _InvFadeParemeter: {r: 0.15, g: 0.15, b: 0.5, a: 1}
+    - _MainColor: {r: 0, g: 0.4627451, b: 1, a: 1}
     - _MainTex_ST: {r: 1, g: 1, b: 0, a: 0}
+    - _ReflectionColor: {r: 0.764151, g: 0.22359762, b: 0, a: 0.5}
     - _ReflectionTex_ST: {r: 1, g: 1, b: 0, a: 0}
     - _ReflectiveColorCube_ST: {r: 1, g: 1, b: 0, a: 0}
     - _ReflectiveColor_ST: {r: 1, g: 1, b: 0, a: 0}
-    - _RefrColor: {r: 0.9372549, g: 0.9372549, b: 0.9372549, a: 1}
+    - _RefrColor: {r: 0.9811321, g: 0, b: 0, a: 1}
     - _RefractionTex_ST: {r: 1, g: 1, b: 0, a: 0}
+    - _SpecularColor: {r: 0.72, g: 0.72, b: 0.72, a: 1}
+    - _WavesColor: {r: 0.3, g: 0.35, b: 0.25, a: 0.25}
+    - _WorldLightDir: {r: 0, g: 0.1, b: -0.5, a: 0}
 --- !u!1002 &2100001
 EditorExtensionImpl:
   serializedVersion: 6
