@@ -10,6 +10,8 @@ TagManager:
   - Umbrella
   - Bow
   - Flower
+  - Movement
+  - FlowerInstruction
   layers:
   - Default
   - TransparentFX

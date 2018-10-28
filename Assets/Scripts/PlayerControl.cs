@@ -30,6 +30,8 @@ public class PlayerControl : MonoBehaviour
     CharacterController controller;
 
     public Text task;
+    public Text instruction;
+    public Text flower;
 
     //Animator
     Animator anim;
@@ -91,6 +93,28 @@ public class PlayerControl : MonoBehaviour
             Debug.Log("Hello");
         }
 
+        if(other.tag == "Movement"){
+            instruction.text = "Press wasd for movements, shift to move faster";
+        }
+
+        if (other.tag == "FlowerInstruction")
+        {
+            flower.text = "Congrats! You just picked up a flower." +
+                "Follow the flowers to find the path and " +
+                "collect five of them to go to the next level!";
+        }
+
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if(other.tag == "Movement"){
+            instruction.text = "";
+        }
+
+        if (other.tag == "FlowerInstruction"){
+            flower.text = "";
+        }
     }
 
 
