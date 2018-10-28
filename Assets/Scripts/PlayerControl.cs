@@ -225,6 +225,6 @@ public class PlayerControl : MonoBehaviour
     }
 
     void UpdateTask(){
-        task.text = "Collect flowers[" + flowersPicked.ToString() + " / 5]";
+        task.text = "Collect flowers[" + flowersPicked.ToString();
     }
 }
