@@ -114,6 +114,7 @@ public class PlayerControl : MonoBehaviour
 
         if (other.tag == "FlowerInstruction"){
             flower.text = "";
+            other.gameObject.SetActive(false);
         }
     }
 
