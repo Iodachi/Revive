@@ -1,19 +1,130 @@
 fileFormatVersion: 2
-guid: 0279647008187654abb3c6404bd4dcf3
+guid: e811160cf255541a69131a6763fae2f6
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: joint1
-    100002: //RootNode
-    100004: Volume61
-    400000: joint1
-    400002: //RootNode
-    400004: Volume61
-    2100000: SquidEyeExport_Default3
-    4300000: Volume61
-    7400000: Squid Eye
+    100000: enemy_A:eyes
+    100002: enemy_A:Spider
+    100004: //RootNode
+    100006: head
+    100008: joint11
+    100010: joint11 1
+    100012: joint12
+    100014: joint12 1
+    100016: joint14
+    100018: joint14 1
+    100020: joint15
+    100022: joint15 1
+    100024: joint16
+    100026: joint16 1
+    100028: joint17
+    100030: joint17 1
+    100032: joint18
+    100034: joint18 1
+    100036: joint19
+    100038: joint19 1
+    100040: joint2
+    100042: joint20
+    100044: joint20 1
+    100046: joint21
+    100048: joint21 1
+    100050: joint22
+    100052: joint22 1
+    100054: joint23
+    100056: joint23 1
+    100058: joint25
+    100060: joint26
+    100062: joint3
+    100064: joint5
+    100066: joint5 1
+    100068: joint6
+    100070: joint6 1
+    100072: joint8
+    100074: joint8 1
+    100076: joint9
+    100078: joint9 1
+    100080: L_leg_1
+    100082: L_leg_1 1
+    100084: L_leg_2
+    100086: L_leg_2 1
+    100088: L_leg_3
+    100090: L_leg_3 1
+    100092: L_leg_4
+    100094: L_leg_4 1
+    100096: R_leg_1
+    100098: R_leg_1 1
+    100100: R_leg_2
+    100102: R_leg_2 1
+    100104: R_leg_3
+    100106: R_leg_3 1
+    100108: R_leg_4
+    100110: R_leg_4 1
+    100112: tail
+    400000: enemy_A:eyes
+    400002: enemy_A:Spider
+    400004: //RootNode
+    400006: head
+    400008: joint11
+    400010: joint11 1
+    400012: joint12
+    400014: joint12 1
+    400016: joint14
+    400018: joint14 1
+    400020: joint15
+    400022: joint15 1
+    400024: joint16
+    400026: joint16 1
+    400028: joint17
+    400030: joint17 1
+    400032: joint18
+    400034: joint18 1
+    400036: joint19
+    400038: joint19 1
+    400040: joint2
+    400042: joint20
+    400044: joint20 1
+    400046: joint21
+    400048: joint21 1
+    400050: joint22
+    400052: joint22 1
+    400054: joint23
+    400056: joint23 1
+    400058: joint25
+    400060: joint26
+    400062: joint3
+    400064: joint5
+    400066: joint5 1
+    400068: joint6
+    400070: joint6 1
+    400072: joint8
+    400074: joint8 1
+    400076: joint9
+    400078: joint9 1
+    400080: L_leg_1
+    400082: L_leg_1 1
+    400084: L_leg_2
+    400086: L_leg_2 1
+    400088: L_leg_3
+    400090: L_leg_3 1
+    400092: L_leg_4
+    400094: L_leg_4 1
+    400096: R_leg_1
+    400098: R_leg_1 1
+    400100: R_leg_2
+    400102: R_leg_2 1
+    400104: R_leg_3
+    400106: R_leg_3 1
+    400108: R_leg_4
+    400110: R_leg_4 1
+    400112: tail
+    2100000: enemy_A_Default1
+    2100002: enemy_A_Default3
+    4300000: enemy_A:Spider
+    4300002: enemy_A:eyes
+    7400000: New Spider Walk
     9500000: //RootNode
-    13700000: Volume61
+    13700000: enemy_A:eyes
+    13700002: enemy_A:Spider
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -43,10 +154,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Squid Eye
+      name: New Spider Walk
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 120
+      lastFrame: 24
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -69,7 +180,7 @@ ModelImporter:
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 1
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []

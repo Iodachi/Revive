@@ -179,30 +179,34 @@ public class PlayerControl : MonoBehaviour
         if (!Input.GetKey("w") && !Input.GetKey("s"))
         {
             movingVertical = false;
+            //Debug.Log("Input Received");
         }
 
         //fall slower when holding space bar
         //if have the ability of course
-        if (Input.GetButtonDown("Jump") & (!controller.isGrounded) && umbrella)
-        {
-            gravity = 3f;
-        }
-        if (Input.GetButtonUp("Jump"))
-        {
-            gravity = 15f;
-        }
+        //if (Input.GetButtonDown("Jump") & (!controller.isGrounded) && umbrella)
+        //{
+        //    gravity = 3f;
+        //}
+        //if (Input.GetButtonUp("Jump"))
+        //{
+        //    gravity = 15f;
+        //}
 
         //Setting the animation based on the input
         if (Input.GetButtonDown("Jump") && controller.isGrounded)
         {
             Debug.Log("Jump Anim");
+            Debug.Log("Input Received");
             anim.SetTrigger("jump");
         }
 
 
         if (movingHorizontal == true || movingVertical == true)
         {
+            Debug.Log("Input Received");
             Debug.Log("Run Anim");
+
             anim.SetBool("isRunning", true);
         }
         else if (movingHorizontal == false && movingVertical == false)
