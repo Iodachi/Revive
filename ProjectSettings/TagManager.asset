@@ -12,6 +12,7 @@ TagManager:
   - Flower
   - Movement
   - FlowerInstruction
+  - Tentacle
   layers:
   - Default
   - TransparentFX

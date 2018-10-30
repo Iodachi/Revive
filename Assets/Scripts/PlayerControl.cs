@@ -107,6 +107,10 @@ public class PlayerControl : MonoBehaviour
                 "collect five of them to go to the next level!";
         }
 
+        if(other.tag == "Tentacle"){
+            Debug.Log("..");
+        }
+
     }
 
     private void OnTriggerExit(Collider other)
