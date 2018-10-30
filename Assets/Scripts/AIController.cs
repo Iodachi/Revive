@@ -35,7 +35,7 @@ public class AIController : MonoBehaviour
             agent.SetDestination(target.position);
 
             //Hard coded 3 because that's the distance it is when it's close enough to the player
-            if (distance <= 2.5)
+            if (distance <= 5)
             {
                 //Face the target
                 FaceTarget();
@@ -43,6 +43,13 @@ public class AIController : MonoBehaviour
                 //Attack the target
                 Attack();
             }
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "Player"){
+            player.transform.position = respawnPoint.transform.position;
         }
     }
 
