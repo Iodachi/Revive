@@ -9,7 +9,8 @@ public class AttachPlayer : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject == Player)
+        Debug.Log("triggered");
+        if (other.tag == "Player")
         {
             Player.transform.parent = this.transform.parent;
         }
@@ -17,7 +18,7 @@ public class AttachPlayer : MonoBehaviour {
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject == Player)
+        if (other.tag == "Player")
         {
             Player.transform.parent = null;
         }

@@ -10,7 +10,7 @@ public class PlayerControl : MonoBehaviour
     Vector2 input;
     public float walkSpeed = 7;
     public float runSpeed = 14;
-    public float gravity = 15f;
+    public float gravity = 30f;
     public float jumpSpeed = 8.0F;
     public float jumpHeight = 10;
     public Vector3 velocity;
@@ -184,14 +184,14 @@ public class PlayerControl : MonoBehaviour
 
         //fall slower when holding space bar
         //if have the ability of course
-        //if (Input.GetButtonDown("Jump") & (!controller.isGrounded) && umbrella)
-        //{
-        //    gravity = 3f;
-        //}
-        //if (Input.GetButtonUp("Jump"))
-        //{
-        //    gravity = 15f;
-        //}
+        if (Input.GetButtonDown("Jump") & (!controller.isGrounded) && umbrella)
+        {
+            gravity = 3f;
+        }
+        if (Input.GetButtonUp("Jump"))
+        {
+            gravity = 30f;
+        }
 
         //Setting the animation based on the input
         if (Input.GetButtonDown("Jump") && controller.isGrounded)
