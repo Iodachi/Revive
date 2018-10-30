@@ -17,13 +17,14 @@ public class PlayerControl : MonoBehaviour
     public float velocityY;
     // Lantern Object - Tui
     public GameObject Lantern;
-
     public GameObject Bow;
+    public GameObject Umbrella;
     int flowersPicked = 0;
 
     //Rotation
     public float turnSmoothTime = 0.2f;
     float turnSmoothVelocity;
+
 
     //Controllers
     Transform camera;
@@ -57,6 +58,7 @@ public class PlayerControl : MonoBehaviour
         startingScale = transform.localScale;
         Lantern.SetActive(false);
         Bow.SetActive(false);
+        Umbrella.SetActive(false);
         UpdateTask();
     }
 
@@ -77,6 +79,7 @@ public class PlayerControl : MonoBehaviour
         //picking up the umbrella, abilities?
         if(other.tag == "Umbrella"){
             other.gameObject.SetActive(false);
+            Umbrella.SetActive(true);
             umbrella = true;
         }
 
@@ -179,7 +182,6 @@ public class PlayerControl : MonoBehaviour
         if (!Input.GetKey("w") && !Input.GetKey("s"))
         {
             movingVertical = false;
-            //Debug.Log("Input Received");
         }
 
         //fall slower when holding space bar
@@ -196,17 +198,12 @@ public class PlayerControl : MonoBehaviour
         //Setting the animation based on the input
         if (Input.GetButtonDown("Jump") && controller.isGrounded)
         {
-            Debug.Log("Jump Anim");
-            Debug.Log("Input Received");
             anim.SetTrigger("jump");
         }
 
 
         if (movingHorizontal == true || movingVertical == true)
         {
-            Debug.Log("Input Received");
-            Debug.Log("Run Anim");
-
             anim.SetBool("isRunning", true);
         }
         else if (movingHorizontal == false && movingVertical == false)

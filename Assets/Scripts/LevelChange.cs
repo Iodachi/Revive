@@ -8,7 +8,7 @@ public class LevelChange : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-		
+        
 	}
 	
 	// Update is called once per frame
@@ -22,7 +22,12 @@ public class LevelChange : MonoBehaviour {
         if(other.tag == "Player" 
            //&& player.getFlowers() >= 5
           ){
-            SceneManager.LoadScene("level1");
+            Scene sceneToLoad = SceneManager.GetSceneByName("level1");
+            SceneManager.LoadScene(sceneToLoad.name, LoadSceneMode.Additive);
+            SceneManager.MoveGameObjectToScene(player.gameObject, sceneToLoad);
+
+            //DontDestroyOnLoad(player.gameObject);
+            //SceneManager.LoadScene("level1");
         }
     }
 }
