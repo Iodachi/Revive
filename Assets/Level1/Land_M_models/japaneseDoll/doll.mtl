@@ -1,0 +1,33 @@
+newmtl Default
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd doll_body_Albedo.tga
+bump doll_body_Height.tga
+map_bump doll_body_Normal.tga
+newmtl Default1
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd doll_head_Albedo.tga
+bump doll_head_Height.tga
+map_bump doll_head_Normal.tga
+newmtl Default2
+Ns 100.000
+d 1.00000
+illum 2
+Kd 1.00000 1.00000 1.00000
+Ka 0.00000 0.00000 0.00000
+Ks 1.00000 1.00000 1.00000
+Ke 0.00000e+0 0.00000e+0 0.00000e+0
+map_Kd doll_hair_Albedo.tga
+bump doll_hair_Height.tga
+map_bump doll_hair_Normal.tga
