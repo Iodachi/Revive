@@ -5082,15 +5082,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4110613232159204, guid: 302fbb2f108a54207bf3b3d08136174e, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 243.6
+      value: 128.86
       objectReference: {fileID: 0}
     - target: {fileID: 4110613232159204, guid: 302fbb2f108a54207bf3b3d08136174e, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 211.13
+      value: 300.88
       objectReference: {fileID: 0}
     - target: {fileID: 4110613232159204, guid: 302fbb2f108a54207bf3b3d08136174e, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -306.06
+      value: -42.23
       objectReference: {fileID: 0}
     - target: {fileID: 4110613232159204, guid: 302fbb2f108a54207bf3b3d08136174e, type: 2}
       propertyPath: m_LocalRotation.x
@@ -59892,6 +59892,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 335dc14973bcd4f59ac83e7a02582977, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lt: {fileID: 1185836225}
   instruction: {fileID: 2108997520}
 --- !u!135 &1185836224
 SphereCollider:
@@ -66270,7 +66271,9 @@ MonoBehaviour:
   dialog:
     name: 'Old Lady:'
     sentences:
-    - If you wanna move on, you need to collect five spider lilies for me.
+    - 'If you wanna move on, you need to collect five spider lilies for me.
+
+'
     - "The lantern will lead you to the right, the candle will lead you to the left.
       \nMy child, find the path of your fate."
   manager: {fileID: 1578414167}
@@ -79980,6 +79983,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 335dc14973bcd4f59ac83e7a02582977, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lt: {fileID: 1635983994}
   instruction: {fileID: 2108997520}
 --- !u!135 &1635983993
 SphereCollider:
@@ -83257,6 +83261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 335dc14973bcd4f59ac83e7a02582977, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lt: {fileID: 1693341019}
   instruction: {fileID: 2108997520}
 --- !u!135 &1693341018
 SphereCollider:
@@ -85323,6 +85328,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 335dc14973bcd4f59ac83e7a02582977, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lt: {fileID: 1730258855}
   instruction: {fileID: 2108997520}
 --- !u!135 &1730258858
 SphereCollider:

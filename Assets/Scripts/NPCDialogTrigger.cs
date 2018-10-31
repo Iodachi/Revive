@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class DialogTrigger : MonoBehaviour {
+public class NPCDialogTrigger : MonoBehaviour {
 
     public Dialog dialog;
     public DialogManager manager;
