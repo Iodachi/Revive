@@ -9,15 +9,17 @@ public class AttachPlayer : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("triggered");
+        Debug.Log("trigger platform");
         if (other.tag == "Player")
         {
+            
             Player.transform.parent = this.transform.parent;
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
+        Debug.Log("exited platform");
         if (other.tag == "Player")
         {
             Player.transform.parent = null;
