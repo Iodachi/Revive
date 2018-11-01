@@ -9491,7 +9491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a158e4bba4e6857409b575e95e4bae20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respawnPoint: {fileID: 0}
+  respawnPoint: {fileID: 156049267}
   lookRadius: 10
   enemyColour: 1
 --- !u!65 &527517385
@@ -14419,7 +14419,7 @@ Prefab:
         type: 2}
       propertyPath: respawnPoint
       value: 
-      objectReference: {fileID: 1680582083}
+      objectReference: {fileID: 156049267}
     - target: {fileID: 114273109780853318, guid: 11cf582815ce24eb392c02cf0cafd8a4,
         type: 2}
       propertyPath: patrolPoints.Array.data[0]
@@ -18870,6 +18870,16 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 31652d6feef270e44aaf27a27e3705b0, type: 2}
+    - target: {fileID: 114738453684678406, guid: 11cf582815ce24eb392c02cf0cafd8a4,
+        type: 2}
+      propertyPath: lookRadius
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 114738453684678406, guid: 11cf582815ce24eb392c02cf0cafd8a4,
+        type: 2}
+      propertyPath: respawnPoint
+      value: 
+      objectReference: {fileID: 1680582083}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11cf582815ce24eb392c02cf0cafd8a4, type: 2}
   m_IsPrefabAsset: 0
@@ -21251,7 +21261,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 41e7c7a3850e69e468b114e4cf9f8d1e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.87
+      value: 0.82
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 41e7c7a3850e69e468b114e4cf9f8d1e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -21303,6 +21313,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 41e7c7a3850e69e468b114e4cf9f8d1e, type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 41e7c7a3850e69e468b114e4cf9f8d1e, type: 3}
+      propertyPath: m_DynamicOccludee
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -21361,7 +21375,7 @@ Prefab:
         type: 2}
       propertyPath: respawnPoint
       value: 
-      objectReference: {fileID: 1680582083}
+      objectReference: {fileID: 156049267}
     - target: {fileID: 114273109780853318, guid: 11cf582815ce24eb392c02cf0cafd8a4,
         type: 2}
       propertyPath: patrolPoints.Array.data[0]
@@ -30432,7 +30446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a158e4bba4e6857409b575e95e4bae20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respawnPoint: {fileID: 0}
+  respawnPoint: {fileID: 156049267}
   lookRadius: 10
   enemyColour: 1
 --- !u!195 &1925172847
@@ -33174,8 +33188,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a158e4bba4e6857409b575e95e4bae20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  respawnPoint: {fileID: 0}
-  lookRadius: 10
+  respawnPoint: {fileID: 1680582083}
+  lookRadius: 12
   enemyColour: 1
 --- !u!65 &2018552915
 BoxCollider:
