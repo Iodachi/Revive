@@ -31,8 +31,6 @@ public class PlayerControl : MonoBehaviour
     CharacterController controller;
 
     public Text task;
-    public Text instruction;
-    public Text flower;
 
     //Animator
     Animator anim;
@@ -44,8 +42,8 @@ public class PlayerControl : MonoBehaviour
     bool isStartingScale = true;
 
     //abilities
-    bool umbrella = false;
-    bool colourChange = false;
+    bool haveUmbrella = false;
+    bool haveBow = false;
 
     //colour changing in according to enemy following
     public int colour = 0;
@@ -73,14 +71,14 @@ public class PlayerControl : MonoBehaviour
         if(other.tag == "Bow"){
             other.gameObject.SetActive(false);
             Bow.SetActive(true);
-            colourChange = true;
+            haveBow = true;
         }
 
         //picking up the umbrella, abilities?
         if(other.tag == "Umbrella"){
             other.gameObject.SetActive(false);
             Umbrella.SetActive(true);
-            umbrella = true;
+            haveUmbrella = true;
         }
 
         //the task system to get the flowers
@@ -96,17 +94,6 @@ public class PlayerControl : MonoBehaviour
             Debug.Log("Hello");
         }
 
-        if(other.tag == "Movement"){
-            instruction.text = "Press wasd for movements, shift to move faster";
-        }
-
-        if (other.tag == "FlowerInstruction")
-        {
-            flower.text = "Congrats! You just picked up a flower." +
-                "Follow the flowers to find the path and " +
-                "collect five of them to go to the next level!";
-        }
-
         if(other.tag == "Tentacle"){
             Debug.Log("..");
         }
@@ -115,14 +102,7 @@ public class PlayerControl : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if(other.tag == "Movement"){
-            instruction.text = "";
-        }
-
-        if (other.tag == "FlowerInstruction"){
-            flower.text = "";
-            other.gameObject.SetActive(false);
-        }
+        
     }
 
 
@@ -190,7 +170,7 @@ public class PlayerControl : MonoBehaviour
 
         //fall slower when holding space bar
         //if have the ability of course
-        if (Input.GetButtonDown("Jump") & (!controller.isGrounded) && umbrella)
+        if (Input.GetButtonDown("Jump") & (!controller.isGrounded) && haveUmbrella)
         {
             gravity = 3f;
         }
@@ -245,13 +225,6 @@ public class PlayerControl : MonoBehaviour
 
     public int getFlowers(){
         return flowersPicked;
-    }
-
-    //Player has health and lives. Loses life when dies
-    //And loses health when attacked or in fog/smoke etc.
-    void CalculateHealth()
-    {
-
     }
 
     void UpdateTask(){

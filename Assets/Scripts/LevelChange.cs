@@ -8,7 +8,10 @@ public class LevelChange : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        
+        Scene scene = SceneManager.GetActiveScene();
+        string level = scene.name.Substring(5);
+        Debug.Log("level: " + level);
+
 	}
 	
 	// Update is called once per frame

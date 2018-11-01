@@ -10,7 +10,6 @@ TagManager:
   - Umbrella
   - Bow
   - Flower
-  - Movement
   - FlowerInstruction
   - Tentacle
   layers:
