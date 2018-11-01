@@ -34,7 +34,7 @@ public class LevelChange : MonoBehaviour {
                     SceneManager.LoadScene("level2");
                 }
             }else if(level == "2"){
-                if(player.getFlowers() >= 5){
+                if(player.getFlowers() >= 5 && player.playerHaveToy() && player.playerHaveUmbrella()){
                     SceneManager.LoadScene("level3");
                 }
             }

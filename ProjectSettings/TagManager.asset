@@ -14,6 +14,7 @@ TagManager:
   - Tentacle
   - Pickable
   - Candle
+  - Toy
   layers:
   - Default
   - TransparentFX

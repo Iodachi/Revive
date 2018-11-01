@@ -49,6 +49,7 @@ public class PlayerControl : MonoBehaviour
     bool haveBow = false;
     bool haveCandle = false;
     bool haveLantern = false;
+    bool haveToy = false;
 
     //colour changing in according to enemy following
     public int colour = 0;
@@ -67,10 +68,15 @@ public class PlayerControl : MonoBehaviour
         }else if(level == "1"){
             obtainBow();
         }else if(level == "2"){
+            obtainBow();
             obtainCandle();
             obtainLantern();
         }else if(level == "3"){
-            
+            obtainBow();
+            obtainCandle();
+            obtainLantern();
+            obtainUmbrella();
+            obtainToy();
         }
 
         camera = Camera.main.transform;
@@ -99,12 +105,21 @@ public class PlayerControl : MonoBehaviour
         haveLantern = true;
     }
 
+    void obtainToy(){
+        haveToy = true;
+    }
+
     //LanterTurnOn + LightTurnOn - Tui
    void OnTriggerEnter(Collider other)
     {
         if(other.tag == "LanternTag"){
             other.gameObject.SetActive(false);
             obtainLantern();
+        }
+
+        if(other.tag == "Toy"){
+            other.gameObject.SetActive(false);
+            obtainToy();
         }
 
         if(other.tag == "Bow"){
@@ -246,7 +261,7 @@ public class PlayerControl : MonoBehaviour
     //Player may only be able to access certain areas or do certain things when a certain scale
     void CheckScale()
     {
-        if (Input.GetKeyDown("c"))
+        if (Input.GetKeyDown("c") && haveToy)
         {
             if (isStartingScale)
             {
@@ -286,6 +301,14 @@ public class PlayerControl : MonoBehaviour
     public bool playerHaveCandle()
     {
         return haveCandle;
+    }
+
+    public bool playerHaveToy(){
+        return haveToy;
+    }
+
+    public bool playerHaveUmbrella(){
+        return haveUmbrella;
     }
 
 }
