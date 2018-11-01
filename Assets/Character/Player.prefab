@@ -3098,7 +3098,7 @@ MonoBehaviour:
   runSpeed: 14
   gravity: 15
   jumpSpeed: 8
-  jumpHeight: 20
+  jumpHeight: 10
   velocity: {x: 0, y: 0, z: 0}
   velocityY: 0
   Bow: {fileID: 1767463602427546}

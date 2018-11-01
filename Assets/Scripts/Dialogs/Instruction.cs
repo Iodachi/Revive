@@ -26,7 +26,11 @@ public class Instruction : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.V) && isIn)
         {
             dialogText.text = dialog.sentences[index];
-            index++;
+
+            if (index < dialog.sentences.Length - 1)
+            {
+                index++;
+            }
         }
     }
 
