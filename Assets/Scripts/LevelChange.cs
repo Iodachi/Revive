@@ -28,6 +28,8 @@ public class LevelChange : MonoBehaviour {
                 if(player.getFlowers() >= 5 && player.playerHaveBow()){
                     SceneManager.LoadScene("level1");
                 }
+            }else if(level == "1"){
+                SceneManager.LoadScene("level2");
             }
         }
     }

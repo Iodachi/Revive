@@ -46,6 +46,7 @@ public class PlayerControl : MonoBehaviour
     //abilities
     bool haveUmbrella = false;
     bool haveBow = false;
+    bool haveCandle = false;
 
     //colour changing in according to enemy following
     public int colour = 0;
@@ -80,12 +81,26 @@ public class PlayerControl : MonoBehaviour
         haveBow = true;
     }
 
+    void obtainCandle(){
+        haveCandle = true;
+    }
+
+    void obtainUmbrella(){
+        Umbrella.SetActive(true);
+        haveUmbrella = true;
+    }
+
     //LanterTurnOn + LightTurnOn - Tui
    void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Bow"){
             other.gameObject.SetActive(false);
             obtainBow();
+        }
+
+        if(other.tag == "Candle"){
+            other.gameObject.SetActive(false);
+            obtainCandle();
         }
 
         if (other.tag == "Pickable")
@@ -96,8 +111,7 @@ public class PlayerControl : MonoBehaviour
         //picking up the umbrella, abilities?
         if(other.tag == "Umbrella"){
             other.gameObject.SetActive(false);
-            Umbrella.SetActive(true);
-            haveUmbrella = true;
+            obtainUmbrella();
         }
 
         //the task system to get the flowers

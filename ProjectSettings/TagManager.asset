@@ -13,6 +13,7 @@ TagManager:
   - FlowerInstruction
   - Tentacle
   - Pickable
+  - Candle
   layers:
   - Default
   - TransparentFX
