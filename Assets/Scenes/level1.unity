@@ -18552,6 +18552,23 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f89245dba63b3e84abbff4a3c9ec342a, type: 3}
   m_IsPrefabAsset: 0
+--- !u!1 &1177311232 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 7865b6fe4c570de42a9324010bc31457,
+    type: 3}
+  m_PrefabInternal: {fileID: 1251175466}
+--- !u!65 &1177311235
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1177311232}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.29882267, y: 0.4289331, z: 0.23473617}
+  m_Center: {x: 0.05165477, y: -0.13432764, z: -0.036101975}
 --- !u!1001 &1184022586
 Prefab:
   m_ObjectHideFlags: 0
@@ -19834,7 +19851,7 @@ Prefab:
       objectReference: {fileID: 2100000, guid: a5f5ba6d632e1474c83df34d42171cd3, type: 2}
     - target: {fileID: 100000, guid: 7865b6fe4c570de42a9324010bc31457, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Candle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7865b6fe4c570de42a9324010bc31457, type: 3}
@@ -33280,7 +33297,7 @@ GameObject:
   - component: {fileID: 2020956979}
   m_Layer: 0
   m_Name: Talk
-  m_TagString: Candle
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
