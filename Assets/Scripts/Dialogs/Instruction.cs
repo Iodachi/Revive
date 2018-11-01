@@ -51,6 +51,7 @@ public class Instruction : MonoBehaviour {
 
     public void StartDialog()
     {
+        image.gameObject.SetActive(true);
         instruction.gameObject.SetActive(true);
         nameText.text = dialog.name;
         dialogText.text = dialog.sentences[0];

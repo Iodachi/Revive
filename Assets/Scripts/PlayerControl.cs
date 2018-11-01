@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerControl : MonoBehaviour
@@ -16,7 +17,6 @@ public class PlayerControl : MonoBehaviour
     public Vector3 velocity;
     public float velocityY;
     // Lantern Object - Tui
-    public GameObject Lantern;
     public GameObject Bow;
     public GameObject Umbrella;
     int flowersPicked = 0;
@@ -25,6 +25,8 @@ public class PlayerControl : MonoBehaviour
     public float turnSmoothTime = 0.2f;
     float turnSmoothVelocity;
 
+    //current level
+    string level;
 
     //Controllers
     Transform camera;
@@ -50,28 +52,39 @@ public class PlayerControl : MonoBehaviour
 
     void Start()
     {
+        Scene scene = SceneManager.GetActiveScene();
+        level = scene.name.Substring(5);
+
+        if(level == "0"){
+            Bow.SetActive(false);
+            Umbrella.SetActive(false);
+        }else if(level == "1"){
+            obtainBow();
+        }else if(level == "2"){
+            
+        }else if(level == "3"){
+            
+        }
+
         camera = Camera.main.transform;
         controller = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
         startingScale = transform.localScale;
-        Lantern.SetActive(false);
-        Bow.SetActive(false);
-        Umbrella.SetActive(false);
+
         UpdateTask();
+    }
+
+    void obtainBow(){
+        Bow.SetActive(true);
+        haveBow = true;
     }
 
     //LanterTurnOn + LightTurnOn - Tui
    void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "LanternTag")
-        {
-            Lantern.SetActive(true);
-        }
-
         if(other.tag == "Bow"){
             other.gameObject.SetActive(false);
-            Bow.SetActive(true);
-            haveBow = true;
+            obtainBow();
         }
 
         //picking up the umbrella, abilities?
@@ -229,5 +242,9 @@ public class PlayerControl : MonoBehaviour
 
     void UpdateTask(){
         task.text = "Collect flowers[" + flowersPicked.ToString();
+    }
+
+    public bool playerHaveBow(){
+        return haveBow;
     }
 }

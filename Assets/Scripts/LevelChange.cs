@@ -5,11 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class LevelChange : MonoBehaviour {
     public PlayerControl player;
+    private string level;
 
     // Use this for initialization
     void Start () {
         Scene scene = SceneManager.GetActiveScene();
-        string level = scene.name.Substring(5);
+        level = scene.name.Substring(5);
         Debug.Log("level: " + level);
 
 	}
@@ -22,10 +23,13 @@ public class LevelChange : MonoBehaviour {
     void OnTriggerEnter(Collider other)
     {
         //if player fulfilled the task
-        if(other.tag == "Player" 
-           //&& player.getFlowers() >= 5
-          ){
-            SceneManager.LoadScene("level1");
+        if(other.tag == "Player"){
+            if(level == "0"){
+                if(player.getFlowers() >= 5 && player.playerHaveBow()){
+                    SceneManager.LoadScene("level1");
+                }
+            }
         }
     }
+
 }
