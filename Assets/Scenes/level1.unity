@@ -382,7 +382,6 @@ GameObject:
   - component: {fileID: 24085043}
   - component: {fileID: 24085042}
   - component: {fileID: 24085041}
-  - component: {fileID: 24085040}
   - component: {fileID: 24085039}
   m_Layer: 0
   m_Name: platform_A_04 (1)
@@ -417,24 +416,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 247989870}
---- !u!95 &24085040
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 24085037}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b87ec0a350e26a14b91c7c629c55a057, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &24085041
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4123,7 +4104,6 @@ GameObject:
   - component: {fileID: 204651127}
   - component: {fileID: 204651126}
   - component: {fileID: 204651125}
-  - component: {fileID: 204651124}
   - component: {fileID: 204651123}
   m_Layer: 0
   m_Name: platform_B_02 (1)
@@ -4158,24 +4138,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 247989870}
---- !u!95 &204651124
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 204651121}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0ba79d9d0a482914ba140ac49f3d5806, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &204651125
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4801,7 +4763,6 @@ GameObject:
   - component: {fileID: 254583708}
   - component: {fileID: 254583707}
   - component: {fileID: 254583706}
-  - component: {fileID: 254583705}
   - component: {fileID: 254583704}
   m_Layer: 0
   m_Name: platform_B_04 (1)
@@ -4836,24 +4797,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 247989870}
---- !u!95 &254583705
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 254583702}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 6c14c0e2e8646e44f8035448d9158d59, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &254583706
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6509,7 +6452,6 @@ GameObject:
   - component: {fileID: 345984676}
   - component: {fileID: 345984675}
   - component: {fileID: 345984674}
-  - component: {fileID: 345984673}
   - component: {fileID: 345984672}
   m_Layer: 0
   m_Name: platform_B_01 (1)
@@ -6544,24 +6486,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 247989870}
---- !u!95 &345984673
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 345984670}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ce2c6527a3d98ca4e9938ca409016dbe, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &345984674
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11040,7 +10964,6 @@ GameObject:
   - component: {fileID: 663480594}
   - component: {fileID: 663480591}
   - component: {fileID: 663480593}
-  - component: {fileID: 663480592}
   - component: {fileID: 663480590}
   m_Layer: 0
   m_Name: patternSton DC_03 (1)
@@ -11089,24 +11012,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 41e7c7a3850e69e468b114e4cf9f8d1e, type: 3}
---- !u!95 &663480592
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 663480588}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 23c88bbbc944ee24f91ceda8ac2038d0, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &663480593
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12974,7 +12879,6 @@ GameObject:
   - component: {fileID: 793967601}
   - component: {fileID: 793967600}
   - component: {fileID: 793967599}
-  - component: {fileID: 793967598}
   - component: {fileID: 793967597}
   m_Layer: 0
   m_Name: platform_A_03 (1)
@@ -13009,24 +12913,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 247989870}
---- !u!95 &793967598
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 793967595}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7afd5cfbc7c4ff5459468a48797be34e, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &793967599
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15730,7 +15616,6 @@ GameObject:
   - component: {fileID: 917418137}
   - component: {fileID: 917418134}
   - component: {fileID: 917418136}
-  - component: {fileID: 917418135}
   - component: {fileID: 917418133}
   m_Layer: 0
   m_Name: patternSton DC_02 (1)
@@ -15779,24 +15664,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 41e7c7a3850e69e468b114e4cf9f8d1e, type: 3}
---- !u!95 &917418135
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 917418131}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 9ed4de44427798d408c0957abdba9799, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &917418136
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15867,7 +15734,6 @@ GameObject:
   - component: {fileID: 917866464}
   - component: {fileID: 917866463}
   - component: {fileID: 917866461}
-  - component: {fileID: 917866462}
   - component: {fileID: 917866460}
   m_Layer: 0
   m_Name: patternSton AC_02 (1)
@@ -15916,24 +15782,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 41e7c7a3850e69e468b114e4cf9f8d1e, type: 3}
---- !u!95 &917866462
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 917866458}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d65219c4e7b1baa42a3f9bfbac7d75f9, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &917866463
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18679,7 +18527,6 @@ GameObject:
   - component: {fileID: 1166594277}
   - component: {fileID: 1166594276}
   - component: {fileID: 1166594275}
-  - component: {fileID: 1166594274}
   - component: {fileID: 1166594273}
   m_Layer: 0
   m_Name: platform_A_02 (1)
@@ -18714,24 +18561,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 247989870}
---- !u!95 &1166594274
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1166594271}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ff937efbf44960545930c9405e9628cb, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &1166594275
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18802,7 +18631,6 @@ GameObject:
   - component: {fileID: 1170152313}
   - component: {fileID: 1170152312}
   - component: {fileID: 1170152311}
-  - component: {fileID: 1170152310}
   - component: {fileID: 1170152309}
   m_Layer: 0
   m_Name: platform_B_03 (1)
@@ -18837,24 +18665,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 247989870}
---- !u!95 &1170152310
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1170152307}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 95d97eded556dca4aae282c6242f11f3, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &1170152311
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20358,7 +20168,6 @@ GameObject:
   - component: {fileID: 1261836929}
   - component: {fileID: 1261836928}
   - component: {fileID: 1261836926}
-  - component: {fileID: 1261836927}
   - component: {fileID: 1261836925}
   m_Layer: 0
   m_Name: patternSton AC_01 (1)
@@ -20407,24 +20216,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 41e7c7a3850e69e468b114e4cf9f8d1e, type: 3}
---- !u!95 &1261836927
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1261836923}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0dcd0ac206d4e7343aac33d764b97746, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!23 &1261836928
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25189,7 +24980,6 @@ GameObject:
   - component: {fileID: 1553323309}
   - component: {fileID: 1553323306}
   - component: {fileID: 1553323308}
-  - component: {fileID: 1553323307}
   - component: {fileID: 1553323305}
   m_Layer: 0
   m_Name: patternSton DC_01 (1)
@@ -25238,24 +25028,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 41e7c7a3850e69e468b114e4cf9f8d1e, type: 3}
---- !u!95 &1553323307
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1553323303}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c4374836f173e64498b4d9f26586bfb2, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &1553323308
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -26510,7 +26282,6 @@ GameObject:
   - component: {fileID: 1630136153}
   - component: {fileID: 1630136152}
   - component: {fileID: 1630136151}
-  - component: {fileID: 1630136150}
   - component: {fileID: 1630136149}
   m_Layer: 0
   m_Name: platform_A_01 (1)
@@ -26545,24 +26316,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 247989870}
---- !u!95 &1630136150
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1630136147}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e88e9064e3ed36f40b2f79922d662d68, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &1630136151
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -30169,24 +29922,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 41e7c7a3850e69e468b114e4cf9f8d1e,
     type: 3}
   m_PrefabInternal: {fileID: 1319679303}
---- !u!95 &1888359079
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1888359077}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b830e7ee1a9ed8641908f58bd2360b64, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &1888359080
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -31067,24 +30802,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 41e7c7a3850e69e468b114e4cf9f8d1e,
     type: 3}
   m_PrefabInternal: {fileID: 16892066}
---- !u!95 &1937979973
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1937979971}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 8e3530bbf97ea9e4e807599aaa7f2cbf, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &1937979974
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -33255,24 +32972,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 0}
---- !u!95 &2026977336
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2026977333}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bf141496333269c4cb161be14c64860b, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!64 &2026977337
 MeshCollider:
   m_ObjectHideFlags: 0
