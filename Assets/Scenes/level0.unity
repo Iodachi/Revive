@@ -6660,7 +6660,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68a103cb808a6334181b8aeed84f1bd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 953988660}
+  anim: {fileID: 492811320}
 --- !u!1001 &121309101
 Prefab:
   m_ObjectHideFlags: 0
@@ -7620,7 +7620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c61838de8793d74785e2630fe68932a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Player: {fileID: 492811318}
 --- !u!64 &176121656
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10964,7 +10964,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c61838de8793d74785e2630fe68932a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Player: {fileID: 492811318}
 --- !u!64 &415873299
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11993,6 +11993,16 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a97962f7d5ba4df0823334b52c7c02c, type: 2}
   m_IsPrefabAsset: 0
+--- !u!1 &492811318 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1464661084660482, guid: 302fbb2f108a54207bf3b3d08136174e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1692147312}
+--- !u!95 &492811320 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 95524204926852176, guid: 302fbb2f108a54207bf3b3d08136174e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1692147312}
 --- !u!1 &493365733 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 41e7c7a3850e69e468b114e4cf9f8d1e,
@@ -23894,7 +23904,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c61838de8793d74785e2630fe68932a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Player: {fileID: 492811318}
 --- !u!64 &735627817
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -37235,7 +37245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c61838de8793d74785e2630fe68932a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Player: {fileID: 492811318}
 --- !u!64 &1399476261
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -40351,7 +40361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c61838de8793d74785e2630fe68932a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  Player: {fileID: 492811318}
 --- !u!64 &1644928966
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -45809,15 +45819,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4110613232159204, guid: 302fbb2f108a54207bf3b3d08136174e, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -153.41
+      value: 223.8
       objectReference: {fileID: 0}
     - target: {fileID: 4110613232159204, guid: 302fbb2f108a54207bf3b3d08136174e, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 76.55
+      value: 80.86
       objectReference: {fileID: 0}
     - target: {fileID: 4110613232159204, guid: 302fbb2f108a54207bf3b3d08136174e, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 112
+      value: -325.9
       objectReference: {fileID: 0}
     - target: {fileID: 4110613232159204, guid: 302fbb2f108a54207bf3b3d08136174e, type: 2}
       propertyPath: m_LocalRotation.x
