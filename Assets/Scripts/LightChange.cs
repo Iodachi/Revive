@@ -8,6 +8,7 @@ public class LightChange : MonoBehaviour {
     Light lt;
     public Text instruction;
     bool isIn;
+    public PlayerControl player;
 
     // Use this for initialization
     void Start () {
@@ -17,9 +18,8 @@ public class LightChange : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        if (Input.GetKey(KeyCode.E) && isIn)
+        if (Input.GetKey(KeyCode.E) && isIn && player.playerHaveCandle())
         {
-            Debug.Log("ee");
             lt.intensity = 2;
             instruction.gameObject.SetActive(false);
         }

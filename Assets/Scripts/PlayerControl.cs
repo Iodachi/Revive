@@ -11,7 +11,7 @@ public class PlayerControl : MonoBehaviour
     Vector2 input;
     public float walkSpeed = 7;
     public float runSpeed = 14;
-    public float gravity = 30f;
+    public float gravity = 15f;
     public float jumpSpeed = 8.0F;
     public float jumpHeight = 10;
     public Vector3 velocity;
@@ -19,6 +19,7 @@ public class PlayerControl : MonoBehaviour
     // Lantern Object - Tui
     public GameObject Bow;
     public GameObject Umbrella;
+    public GameObject Lantern;
     int flowersPicked = 0;
 
     //Rotation
@@ -47,6 +48,7 @@ public class PlayerControl : MonoBehaviour
     bool haveUmbrella = false;
     bool haveBow = false;
     bool haveCandle = false;
+    bool haveLantern = false;
 
     //colour changing in according to enemy following
     public int colour = 0;
@@ -56,14 +58,17 @@ public class PlayerControl : MonoBehaviour
         Scene scene = SceneManager.GetActiveScene();
         level = scene.name.Substring(5);
 
+        Bow.SetActive(false);
+        Umbrella.SetActive(false);
+        Lantern.SetActive(false);
+
         if(level == "0"){
             UpdateTask();
-            Bow.SetActive(false);
-            Umbrella.SetActive(false);
         }else if(level == "1"){
             obtainBow();
         }else if(level == "2"){
-            
+            obtainCandle();
+            obtainLantern();
         }else if(level == "3"){
             
         }
@@ -72,7 +77,6 @@ public class PlayerControl : MonoBehaviour
         controller = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
         startingScale = transform.localScale;
-
 
     }
 
@@ -90,9 +94,19 @@ public class PlayerControl : MonoBehaviour
         haveUmbrella = true;
     }
 
+    void obtainLantern(){
+        Lantern.SetActive(true);
+        haveLantern = true;
+    }
+
     //LanterTurnOn + LightTurnOn - Tui
    void OnTriggerEnter(Collider other)
     {
+        if(other.tag == "LanternTag"){
+            other.gameObject.SetActive(false);
+            obtainLantern();
+        }
+
         if(other.tag == "Bow"){
             other.gameObject.SetActive(false);
             obtainBow();
@@ -205,7 +219,7 @@ public class PlayerControl : MonoBehaviour
         }
         if (Input.GetButtonUp("Jump"))
         {
-            gravity = 30f;
+            gravity = 15f;
         }
 
         //Setting the animation based on the input
@@ -263,4 +277,15 @@ public class PlayerControl : MonoBehaviour
     public bool playerHaveBow(){
         return haveBow;
     }
+
+    public bool playerHaveLantern()
+    {
+        return haveLantern;
+    }
+
+    public bool playerHaveCandle()
+    {
+        return haveCandle;
+    }
+
 }

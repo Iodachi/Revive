@@ -29,7 +29,14 @@ public class LevelChange : MonoBehaviour {
                     SceneManager.LoadScene("level1");
                 }
             }else if(level == "1"){
-                SceneManager.LoadScene("level2");
+                if (player.playerHaveLantern() && player.playerHaveCandle())
+                {
+                    SceneManager.LoadScene("level2");
+                }
+            }else if(level == "2"){
+                if(player.getFlowers() >= 5){
+                    SceneManager.LoadScene("level3");
+                }
             }
         }
     }
