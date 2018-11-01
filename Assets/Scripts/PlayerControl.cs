@@ -56,6 +56,7 @@ public class PlayerControl : MonoBehaviour
         level = scene.name.Substring(5);
 
         if(level == "0"){
+            UpdateTask();
             Bow.SetActive(false);
             Umbrella.SetActive(false);
         }else if(level == "1"){
@@ -71,7 +72,7 @@ public class PlayerControl : MonoBehaviour
         anim = GetComponent<Animator>();
         startingScale = transform.localScale;
 
-        UpdateTask();
+
     }
 
     void obtainBow(){
@@ -85,6 +86,11 @@ public class PlayerControl : MonoBehaviour
         if(other.tag == "Bow"){
             other.gameObject.SetActive(false);
             obtainBow();
+        }
+
+        if (other.tag == "Pickable")
+        {
+            other.gameObject.SetActive(false);
         }
 
         //picking up the umbrella, abilities?
@@ -105,10 +111,6 @@ public class PlayerControl : MonoBehaviour
         if (Input.GetButtonDown("Fire3") && other.tag == "LightTag")
         {
             Debug.Log("Hello");
-        }
-
-        if(other.tag == "Tentacle"){
-            Debug.Log("..");
         }
 
     }
