@@ -1717,7 +1717,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4fe9a59718a12a345b43509be01d396c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 74.24
+      value: 74.914
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4fe9a59718a12a345b43509be01d396c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1729,7 +1729,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4fe9a59718a12a345b43509be01d396c, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.41160324
+      value: 0.4792267
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4fe9a59718a12a345b43509be01d396c, type: 3}
       propertyPath: m_LocalRotation.z
@@ -1737,7 +1737,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4fe9a59718a12a345b43509be01d396c, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9113632
+      value: 0.8776912
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4fe9a59718a12a345b43509be01d396c, type: 3}
       propertyPath: m_RootOrder
@@ -1773,7 +1773,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4fe9a59718a12a345b43509be01d396c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 48.611004
+      value: 57.270004
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4fe9a59718a12a345b43509be01d396c, type: 3}
@@ -7214,7 +7214,8 @@ MonoBehaviour:
       me, but I am old, I can\u2019t remember things when I was young.\u201D"
     - "\u201CI only have one of them with me now, I would be happy to give it to you
       if you can help me with finding the rest of them. \u201D"
-    - "\u201CIt will shield you from some monsters... Good luck.\""
+    - "\u201CIt will shield you from some monsters... Good luck. Jump into the demon's
+      mouth, that will let you continue your journey.\""
   instruction: {fileID: 1576589058}
   nameText: {fileID: 2048883243}
   dialogText: {fileID: 1097530815}
@@ -25061,6 +25062,24 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 4fe9a59718a12a345b43509be01d396c,
     type: 3}
   m_PrefabInternal: {fileID: 85358752}
+--- !u!95 &735693108
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 735693107}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b683f545b9f6b634cb62c7e793fb8ac9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!65 &735693111
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34970,7 +34989,7 @@ Animator:
   m_GameObject: {fileID: 1060337372}
   m_Enabled: 0
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b683f545b9f6b634cb62c7e793fb8ac9, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

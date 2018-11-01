@@ -19,7 +19,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 157.69, y: 189.14, z: -187.1}
+        value: {x: 155.8, y: 180.2, z: -187.1}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -27,8 +27,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 3
-        value: {x: 150.6, y: 263, z: -170.3}
+        time: 3.0166667
+        value: {x: 150.60185, y: 237.5, z: -170.30598}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -36,8 +36,8 @@ AnimationClip:
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 6
-        value: {x: 157.69, y: 189.14, z: -187.1}
+        time: 6.016667
+        value: {x: 155.8, y: 180.2, z: -187.1}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -53,6 +53,10 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
+      value: {fileID: 2100000, guid: 99e5d5471f5a2e142915c6c36fffe01c, type: 2}
+    - time: 3.0166667
+      value: {fileID: 2100000, guid: 99e5d5471f5a2e142915c6c36fffe01c, type: 2}
+    - time: 6.016667
       value: {fileID: 2100000, guid: 99e5d5471f5a2e142915c6c36fffe01c, type: 2}
     attribute: m_Materials.Array.data[0]
     path: 
@@ -81,12 +85,14 @@ AnimationClip:
       isPPtrCurve: 1
     pptrCurveMapping:
     - {fileID: 2100000, guid: 99e5d5471f5a2e142915c6c36fffe01c, type: 2}
+    - {fileID: 2100000, guid: 99e5d5471f5a2e142915c6c36fffe01c, type: 2}
+    - {fileID: 2100000, guid: 99e5d5471f5a2e142915c6c36fffe01c, type: 2}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 6
+    m_StopTime: 6.033334
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -107,7 +113,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 157.69
+        value: 155.8
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -115,8 +121,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 3
-        value: 150.6
+        time: 3.0166667
+        value: 150.60185
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -124,8 +130,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 6
-        value: 157.69
+        time: 6.016667
+        value: 155.8
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -144,7 +150,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 189.14
+        value: 180.2
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -152,8 +158,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 3
-        value: 263
+        time: 3.0166667
+        value: 237.5
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -161,8 +167,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 6
-        value: 189.14
+        time: 6.016667
+        value: 180.2
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -189,8 +195,8 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 3
-        value: -170.3
+        time: 3.0166667
+        value: -170.30598
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -198,7 +204,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 6
+        time: 6.016667
         value: -187.1
         inSlope: 0
         outSlope: 0

@@ -66,8 +66,8 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _OutlineFactor: 0.757
-    - _OutlineWidth: 0.06
+    - _OutlineFactor: 0.649
+    - _OutlineWidth: 0.02
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
