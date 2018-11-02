@@ -25628,7 +25628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67bbacbb8f37e384bba2a9d327585cbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 329923858}
   respawnPoint: {fileID: 1457961404}
 --- !u!64 &784975086
 MeshCollider:
@@ -33706,7 +33706,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67bbacbb8f37e384bba2a9d327585cbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 329923858}
   respawnPoint: {fileID: 1878367058}
 --- !u!64 &962501737
 MeshCollider:
@@ -35968,7 +35968,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67bbacbb8f37e384bba2a9d327585cbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 329923858}
   respawnPoint: {fileID: 847352331}
 --- !u!65 &1120194236
 BoxCollider:
@@ -37047,7 +37047,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67bbacbb8f37e384bba2a9d327585cbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 329923858}
   respawnPoint: {fileID: 1554747934}
 --- !u!64 &1185581651
 MeshCollider:
@@ -66705,7 +66705,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67bbacbb8f37e384bba2a9d327585cbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 329923858}
   respawnPoint: {fileID: 849101131}
 --- !u!64 &1966592061
 MeshCollider:
