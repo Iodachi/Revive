@@ -7216,6 +7216,7 @@ MonoBehaviour:
       if you can help me with finding the rest of them. \u201D"
     - "\u201CIt will shield you from some monsters... Good luck. Jump into the demon's
       mouth, that will let you continue your journey.\""
+    - -Pick-up objects by walking towards to it-
   instruction: {fileID: 1576589058}
   nameText: {fileID: 2048883243}
   dialogText: {fileID: 1097530815}

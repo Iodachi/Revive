@@ -66,8 +66,8 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _OutlineFactor: 0.649
-    - _OutlineWidth: 0.02
+    - _OutlineFactor: 0
+    - _OutlineWidth: 0.49
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -82,4 +82,4 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _OutlineColor: {r: 1, g: 0.8022231, b: 0.7688679, a: 1}
+    - _OutlineColor: {r: 0.9811321, g: 0.77723813, b: 0.745105, a: 1}
